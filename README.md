@@ -210,18 +210,6 @@ FINNHUB_API_KEY=your_finnhub_api_key_here
 4. **Push** to the branch (`git push origin feature/amazing-feature`)
 5. **Open** a Pull Request
 
-### Development Setup
-```bash
-# Install development dependencies
-pip install -r requirements.txt
-
-# Run tests (if available)
-python -m pytest
-
-# Format code
-black .
-```
-
 ---
 
 ## 📄 License
