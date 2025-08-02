@@ -24,12 +24,6 @@
 ### 💰 **DCF Valuation Analysis**
 - **Multi-Source Data**: Scrapes DCF valuations from AlphaSpread and ValueInvesting
 - **Comparative Analysis**: Compares valuations across different sources
-- **Ticker-Specific**: Get detailed DCF analysis for any stock ticker
-
-### 🔍 **Smart Signal Generation**
-- **Automated Detection**: Identifies high-probability investment opportunities
-- **Risk Assessment**: Analyzes insider confidence and analyst sentiment
-- **API-First Design**: RESTful endpoints for easy integration
 
 ---
 
@@ -127,61 +121,6 @@ FINNHUB_API_KEY=your_finnhub_api_key_here
 
 ---
 
-## 📊 Data Models
-
-### Insider Trade
-```python
-{
-    "ticker": "AAPL",
-    "name": "Tim Cook",
-    "role": "CEO",
-    "date": "2024-01-15",
-    "transaction_type": "Buy",
-    "shares": 1000,
-    "value": 150000.00
-}
-```
-
-### Analyst Rating
-```python
-{
-    "ticker": "AAPL",
-    "analyst": "Morgan Stanley",
-    "rating": "Overweight",
-    "date": "2024-01-15"
-}
-```
-
-### DCF Valuation
-```python
-{
-    "ticker": "AAPL",
-    "source": "alphaspread",
-    "value": 185.50,
-    "date": "2024-01-15"
-}
-```
-
----
-
-## 🚀 Use Cases
-
-### For Individual Investors
-- **Signal Detection**: Identify high-probability investment opportunities
-- **Risk Management**: Understand insider confidence levels
-- **Market Timing**: Track analyst sentiment changes
-
-### For Quantitative Analysts
-- **Data Integration**: Access structured financial data via API
-- **Backtesting**: Historical signal analysis capabilities
-- **Custom Analysis**: Extend with additional data sources
-
-### For Financial Institutions
-- **Portfolio Management**: Incorporate insider and analyst signals
-- **Risk Assessment**: Monitor insider trading patterns
-- **Compliance**: Track regulatory compliance requirements
-
----
 
 ## 🔍 Signal Types
 
